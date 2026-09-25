@@ -5,8 +5,8 @@ Ohjelmoinnin perusteiden harjoitus 5
 
 Täydennä tähän:
 
-- Nimi
-- Ryhmä
+- Jenny Autio
+- INTKM2026A2
 
 ## Projektin kuvaus
 
