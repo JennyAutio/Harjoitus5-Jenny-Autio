@@ -10,8 +10,8 @@ Täydennä tähän:
 
 ## Projektin kuvaus
 
-Kirjoita tähän projektin kuvaus.
+Tehdään Raspberry Picon avulla FoCar niminen ohjelmoitava auto.
 
 ## Käyttöohje
 
-Kirjoita tähän käyttöohjeet.
+
