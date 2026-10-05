@@ -77,3 +77,15 @@ tauko=1
 tiedosto = open("sreitti.txt", "r")
 sisalto = tiedosto.readlines()
 
+# tehdään lista, johon tallennetaan tiedoston sisältö ja
+# josta poimitaan ohjeita
+ohjelista = []
+
+# listaan tulee ohjeiden perään riviväli \n, otetaan ne
+# pois strip() avulla
+
+rivimaara=len(sisalto)
+
+for i in range(0,rivimaara):
+    ohje = sisalto[i].strip()
+    ohjelista.append(ohje)
