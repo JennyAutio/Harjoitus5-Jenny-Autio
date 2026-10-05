@@ -89,3 +89,21 @@ rivimaara=len(sisalto)
 for i in range(0,rivimaara):
     ohje = sisalto[i].strip()
     ohjelista.append(ohje)
+
+# Oli vähän turha vaihe ehkä
+
+# Tehdään looppi ja kutsutaan FoCarin reittien funktiota
+ohjemaara=len(ohjelista)
+
+sleep(5)
+for i in range(0,ohjemaara):
+    if ohjelista[i]=="suoraan":
+        eteen(n50,tauko)
+    elif ohjelista[i]=="oikealle":
+        oikea(n25,n100,3)
+    elif ohjelista[i]=="vasemmalle":
+        vasen(n100,n25,3)
+    elif ohjelista[i]=="peruuta":
+        peruuta(n75,3)
+
+lopeta()
