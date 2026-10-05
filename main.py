@@ -71,3 +71,9 @@ n50=32767
 n25=16384
 n=0
 tauko=1
+
+
+# avataan tiedosto
+tiedosto = open("sreitti.txt", "r")
+sisalto = tiedosto.readlines()
+
